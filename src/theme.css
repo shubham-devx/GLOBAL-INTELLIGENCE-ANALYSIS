@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: #f5f6fa;
+  color: #1e1e1e;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #c9a227;   /* Bloomberg gold */
+  letter-spacing: 1px;
+}
+
+/* Main Layout */
+.terminal-container {
+  padding: 20px 40px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Buttons */
+.button-primary {
+  background: #c9a227;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.button-primary:hover {
+  opacity: 0.9;
+}
+
+/* Inputs */
+.input-field {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 6px;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+
+/* Metrics */
+.metric-box {
+  background: #fafafa;
+  padding: 15px;
+  border-left: 4px solid #c9a227;
+  border-radius: 6px;
+}
